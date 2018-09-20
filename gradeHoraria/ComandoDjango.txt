@@ -1,0 +1,3 @@
+
+python manage.py startapp nomeAplicação(blog) - Para criar uma aplicação é executar o este comando. Para manter tudo arrumado, é sempre bom criar uma aplicações separadas dentro do nosso projeto.
+python manage.py makemigrations nomeAplicação(blog) - Para atualizar as alterações é necessário fazer com que o Django entenda que foram feitas algumas alterações nos modelos
