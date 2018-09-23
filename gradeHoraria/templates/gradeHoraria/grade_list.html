@@ -11,7 +11,7 @@
 		
 		{% for grade in grades %}
             <div>
-				<h2><strong><a href="./">{{ grade.title }}</a></strong></h2>
+				<h2><a href="./">{{ grade.title }}</a></h2>
 				<p>Grade Cadastrada em: {{ grade.published_date }}</p>
 				<p>{{ grade.text|linebreaksbr }}</p>
 			</div>
