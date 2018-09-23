@@ -9,7 +9,7 @@ class Grade(models.Model):
     author = models.ForeignKey('auth.User', on_delete=models.CASCADE) #Este é um link para outro modelo.
     title = models.CharField(max_length=200) #É assim que definimos um texto com um número limitado de caracteres.
     text = models.TextField() #Este campo é para textos sem um limite fixo
-    created_date = models.DateTimeField( #Este é uma data e hora.
+    created_date = models.DateTimeField( #Campo é uma data e hora.
             default=timezone.now)
     published_date = models.DateTimeField(
             blank=True, null=True)
